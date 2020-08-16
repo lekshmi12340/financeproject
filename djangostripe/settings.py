@@ -120,6 +120,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STRIPE_PUBLISHABLE_KEY ='pk_test_51HFyc8Kq3A25gNsBOc1bYSJhbMrMDAkrXoW9fbtbwK7RRVYqzGoPyoaV2wuJdq1kxMH6kIWyt6oQvRuprWUnEhY2006fAgKRoI'
-STRIPE_SECRET_KEY = 'sk_test_51HFyc8Kq3A25gNsBJIetT0JOlwdv6rKuzmsNJoHRDXPbDiBpLlcWSoDaVS3f1hI5d29PlIUfk4sNL9gN96iD2aHc00hMxmstKG'
+STRIPE_PUBLISHABLE_KEY ='enter your key'
+STRIPE_SECRET_KEY = 'enter your key'
 EMAIL_BACKEND="django.core.mail.backends.console.EmailBackend"
