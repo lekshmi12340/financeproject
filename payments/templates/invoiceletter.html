@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <style>
+      body {
+  background-color: lightblue;
+}
+
+    </style>
+</head>
+<body>
+
+<h1>Please find your invoice below</h1>
+{% for number in userdata%}
+
+
+<h3> Invoice Number: {{number.invoicenumber}}</h3>
+<h3> Client Name:{{number.clientname}}</h3>
+<h3>Client Emailid: {{number.clientemailid}}</h3>
+<h3>Project Name: {{number.projectname}}</h3>
+<h3>Amount to be paid : {{number.amounttobecharged}}</h3>
+
+<h2>Thankyou for doing buisiness with us</h2>
+
+<a href="home">Please click the button to initiate the payment</a>
+{% endfor %}
+
+
+</body>
+</html>

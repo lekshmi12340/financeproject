@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <style>
+      body {
+  background-color: lightblue;
+}
+
+    </style>
+</head>
+<body>
+<form action="dbupdated" method="POST" >
+    {% csrf_token %}
+<input type="text" placeholder="Enter the invoice number " name="dbupdated">
+<input type="submit">
+</form>
+
+
+</body>
+</html>
